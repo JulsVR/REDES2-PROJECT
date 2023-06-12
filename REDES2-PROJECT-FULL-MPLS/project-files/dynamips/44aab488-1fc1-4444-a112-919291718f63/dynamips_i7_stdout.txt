@@ -1,0 +1,12 @@
+Cisco Router Simulation Platform (version 0.2.14-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Oct  8 2014 11:25:32
+
+Local UUID: 4c316b8a-299d-41f3-993d-e5b117eef06a
+
+Log file: writing to dynamips_i7_log.txt
+Hypervisor TCP control server started (IP localhost port 51027).
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

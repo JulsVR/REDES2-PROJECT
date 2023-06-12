@@ -1,0 +1,19 @@
+Jun 04 23:00:57.490 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Jun 04 23:00:57.490 HYPERVISOR: Started on IP = localhost, TCP port = 59841.
+Jun 04 23:00:57.499 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 23:00:57.499 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips 
+Jun 04 23:00:57.499 GENERAL: working_dir=/home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips
+Jun 04 23:00:57.499 HYPERVISOR: exec_cmd: ethsw create DC2SW1 
+Jun 04 23:00:57.965 HYPERVISOR: exec_cmd: nio create_udp udp-02074e58-f0a4-4098-a46b-6e063ff842d4 10002 127.0.0.1 10003 
+Jun 04 23:00:57.965 HYPERVISOR: exec_cmd: ethsw add_nio DC2SW1 udp-02074e58-f0a4-4098-a46b-6e063ff842d4 
+Jun 04 23:00:57.971 HYPERVISOR: exec_cmd: ethsw set_access_port DC2SW1 udp-02074e58-f0a4-4098-a46b-6e063ff842d4 1 
+Jun 04 23:00:58.016 HYPERVISOR: exec_cmd: nio create_udp udp-ef5fde96-6438-4003-9ba6-0be8a588b0d9 10004 127.0.0.1 10005 
+Jun 04 23:00:58.016 HYPERVISOR: exec_cmd: ethsw add_nio DC2SW1 udp-ef5fde96-6438-4003-9ba6-0be8a588b0d9 
+Jun 04 23:00:58.031 HYPERVISOR: exec_cmd: ethsw set_access_port DC2SW1 udp-ef5fde96-6438-4003-9ba6-0be8a588b0d9 1 
+Jun 04 23:00:58.600 HYPERVISOR: exec_cmd: nio create_udp udp-da830008-dfc6-497a-b61c-82812438e7bc 10025 127.0.0.1 10024 
+Jun 04 23:00:58.600 HYPERVISOR: exec_cmd: ethsw add_nio DC2SW1 udp-da830008-dfc6-497a-b61c-82812438e7bc 
+Jun 04 23:00:58.612 HYPERVISOR: exec_cmd: ethsw set_access_port DC2SW1 udp-da830008-dfc6-497a-b61c-82812438e7bc 1 
+Jun 04 23:01:17.679 HYPERVISOR: exec_cmd: ethsw delete DC2SW1 
+Jun 04 23:01:17.728 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 23:01:18.018 HYPERVISOR: Stopped.
+Jun 04 23:01:18.018 GENERAL: reset done.

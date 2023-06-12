@@ -1,0 +1,16 @@
+Jun 04 23:00:57.584 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Jun 04 23:00:57.584 HYPERVISOR: Started on IP = localhost, TCP port = 46393.
+Jun 04 23:00:57.591 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 23:00:57.591 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips 
+Jun 04 23:00:57.591 GENERAL: working_dir=/home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips
+Jun 04 23:00:57.591 HYPERVISOR: exec_cmd: ethsw create BR1SW1 
+Jun 04 23:00:58.664 HYPERVISOR: exec_cmd: nio create_udp udp-58ca63de-92be-4cb9-a721-e589bbc562aa 10027 127.0.0.1 10026 
+Jun 04 23:00:58.664 HYPERVISOR: exec_cmd: ethsw add_nio BR1SW1 udp-58ca63de-92be-4cb9-a721-e589bbc562aa 
+Jun 04 23:00:58.666 HYPERVISOR: exec_cmd: ethsw set_access_port BR1SW1 udp-58ca63de-92be-4cb9-a721-e589bbc562aa 1 
+Jun 04 23:00:58.712 HYPERVISOR: exec_cmd: nio create_udp udp-36e0fa22-4c34-4841-b563-540e94c63793 10029 127.0.0.1 10028 
+Jun 04 23:00:58.712 HYPERVISOR: exec_cmd: ethsw add_nio BR1SW1 udp-36e0fa22-4c34-4841-b563-540e94c63793 
+Jun 04 23:00:58.726 HYPERVISOR: exec_cmd: ethsw set_access_port BR1SW1 udp-36e0fa22-4c34-4841-b563-540e94c63793 1 
+Jun 04 23:01:17.680 HYPERVISOR: exec_cmd: ethsw delete BR1SW1 
+Jun 04 23:01:17.705 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 23:01:18.111 HYPERVISOR: Stopped.
+Jun 04 23:01:18.111 GENERAL: reset done.

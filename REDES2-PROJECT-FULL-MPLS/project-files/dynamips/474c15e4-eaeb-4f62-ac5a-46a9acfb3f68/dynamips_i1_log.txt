@@ -1,0 +1,22 @@
+Jun 04 23:00:57.243 HYPERVISOR: Release 0.2.14-amd64/Linux (tag 2014092320)
+Jun 04 23:00:57.243 HYPERVISOR: Started on IP = localhost, TCP port = 49991.
+Jun 04 23:00:57.250 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 04 23:00:57.251 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips 
+Jun 04 23:00:57.251 GENERAL: working_dir=/home/user/GNS3/projects/REDES2-PROJECT/REDES2-PROJECT-FULL-MPLS/project-files/dynamips
+Jun 04 23:00:57.251 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jun 04 23:00:58.084 HYPERVISOR: exec_cmd: nio create_udp udp-756d1b40-c01c-4a03-9510-bd3284ef3caa 10007 127.0.0.1 10006 
+Jun 04 23:00:58.084 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-756d1b40-c01c-4a03-9510-bd3284ef3caa 
+Jun 04 23:00:58.088 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-756d1b40-c01c-4a03-9510-bd3284ef3caa 1 
+Jun 04 23:00:58.134 HYPERVISOR: exec_cmd: nio create_udp udp-58ec8ae3-2be5-4acd-ab30-c24a26ee8406 10009 127.0.0.1 10008 
+Jun 04 23:00:58.134 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-58ec8ae3-2be5-4acd-ab30-c24a26ee8406 
+Jun 04 23:00:58.149 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-58ec8ae3-2be5-4acd-ab30-c24a26ee8406 1 
+Jun 04 23:00:58.194 HYPERVISOR: exec_cmd: nio create_udp udp-be0eb64f-b867-4c99-bc03-c48336a59b42 10011 127.0.0.1 10010 
+Jun 04 23:00:58.195 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-be0eb64f-b867-4c99-bc03-c48336a59b42 
+Jun 04 23:00:58.209 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-be0eb64f-b867-4c99-bc03-c48336a59b42 1 
+Jun 04 23:00:58.317 HYPERVISOR: exec_cmd: nio create_udp udp-d810f356-c945-4c41-ae5b-01a5007d485f 10014 127.0.0.1 10015 
+Jun 04 23:00:58.317 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-d810f356-c945-4c41-ae5b-01a5007d485f 
+Jun 04 23:00:58.329 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-d810f356-c945-4c41-ae5b-01a5007d485f 1 
+Jun 04 23:01:17.677 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Jun 04 23:01:17.748 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 04 23:01:17.770 HYPERVISOR: Stopped.
+Jun 04 23:01:17.770 GENERAL: reset done.
